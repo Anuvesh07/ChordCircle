@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 
+// only some sections are contest
 const AccountContext = createContext();
 
 export const useAccount = () => {
