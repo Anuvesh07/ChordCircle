@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AccountProvider } from './context/AccountContext';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import ContactUs from './components/ContactUs';
-import CTA from './components/CTA';
-import Footer from './components/Footer';
-import ParticleBackground from './components/ParticleBackground';
-import LoadingSpinner from './components/LoadingSpinner';
-import ScrollProgress from './components/ScrollProgress';
-import LinkAccount from './pages/LinkAccount';
-import SyncPlaylist from './pages/SyncPlaylist';
-import FeaturesPage from './pages/FeaturesPage';
-import Friends from './pages/Friends';
-import Trending from './pages/Trending';
-import TopSongs from './pages/TopSongs';
-import Favorites from './pages/Favorites';
+import { AccountProvider } from './context/AccountContext.jsx';
+import Header from './components/Header.jsx';
+import Hero from './components/Hero.jsx';
+import About from './components/About.jsx';
+import ContactUs from './components/ContactUs.jsx';
+import CTA from './components/CTA.jsx';
+import Footer from './components/Footer.jsx';
+import ParticleBackground from './components/ParticleBackground.jsx';
+import LoadingSpinner from './components/LoadingSpinner.jsx';
+import ScrollProgress from './components/ScrollProgress.jsx';
+import LinkAccount from './pages/LinkAccount.jsx';
+import SyncPlaylist from './pages/SyncPlaylist.jsx';
+import FeaturesPage from './pages/FeaturesPage.jsx';
+import Friends from './pages/Friends.jsx';
+import Trending from './pages/Trending.jsx';
+import TopSongs from './pages/TopSongs.jsx';
+import Favorites from './pages/Favorites.jsx';
 
 // Home Page Component
 const HomePage = ({ isLoading, showParticles, theme, setTheme }) => {
