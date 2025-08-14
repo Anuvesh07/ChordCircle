@@ -6,6 +6,8 @@ const Favorites = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [sortBy, setSortBy] = useState('recent');
 
+//removing this mockdata with the fresh hosted one on the local system
+  
   const mockFavoritesData = {
     recent: [
       { id: 1, title: "Watermelon Sugar", artist: "Harry Styles", album: "Fine Line", plays: 127, rating: 5, dateAdded: "2 days ago", genre: "Pop", duration: "2:54" },
@@ -225,5 +227,6 @@ const Favorites = () => {
     </div>
   );
 };
+
 
 export default Favorites;
