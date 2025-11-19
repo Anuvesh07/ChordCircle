@@ -12,6 +12,7 @@ _Our first steps toward connecting your music experience across platforms_
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.0-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+mus
 
 </div>
 
@@ -469,4 +470,5 @@ _Keep the music playing! 🎵_
 _Last updated: $(date) • Version 2.0.0 • Built with 🎵 and ❤️_
 
 Complete rework in the process I didn't design
+
 
